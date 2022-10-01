@@ -65,10 +65,3 @@ public class Program {
     return employee != null;
   }
 }
-
-// quantidade de funcionarios
-// cadastrar funcionarios
-// pesquisa funcionario por Id
-// aumentar salário
-
-// lista todos os funcionarios com valores atualizados
