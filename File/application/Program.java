@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class Program {
   public static void main(String[] args) {
-    File file = new File("/Users/pedrofernandes/Developments/drope/java/File/text.txt");
+    File file = new File("../out.txt");
     Scanner sc = null;
 
     try {
