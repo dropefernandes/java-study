@@ -15,9 +15,8 @@ public class Program {
     products.add(new Product("Notebook", 1200.00));
     products.add(new Product("Tablet", 450.00));
 
-    Comparator<Product> comparator = (prev, next) -> {
-      return prev.getName().toUpperCase().compareTo(next.getName().toUpperCase());
-    };
+    Comparator<Product> comparator = (prev, next) -> prev.getName().toUpperCase()
+        .compareTo(next.getName().toUpperCase());
 
     products.sort(comparator);
 
