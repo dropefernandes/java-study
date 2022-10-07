@@ -18,9 +18,7 @@ public class Program {
     products.sort((productActual, productNext) -> productActual.getName().toUpperCase()
         .compareTo(productNext.getName().toUpperCase()));
 
-    for (Product product : products) {
-      System.out.println(product);
-    }
+    products.forEach(System.out::println);
 
   }
 }
